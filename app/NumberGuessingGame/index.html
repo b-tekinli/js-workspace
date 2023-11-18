@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Guessing Game</title>
+</head>
+
+<body class="bg-gray-200">
+    <header class="flex justify-center items-center mt-10 ">
+        <div class="center">
+            <h1 class="text-3xl font-bold">Sayı Tahmin Et</h1>
+
+            <div class="box bg-gray-400 my-24 rounded-xl">
+                <p class="secretNumber text-center px-2 py-4">?</p>
+            </div>
+
+        </div>
+    </header>
+    
+    <div class="flex justify-around">
+        <button class="again bg-black p-4 rounded-xl text-white">
+            Tekrar Başlat
+        </button>
+        
+        <div class="block">
+            <input type="number" class="input rounded-xl p-4">
+            <button class="check bg-black text-white rounded-xl p-4 ml-3">Kontrol Et</button>
+        </div>
+
+        <p>(1-20 arası)</p>
+    </div>
+
+
+    <footer class="block text-center my-24">
+        <p class="info">Çok düşük</p>
+        <p class="score mt-8">Skor: 20</p>
+        <p class="highScore mt-8">En yüksek skor: 0</p>
+    </footer>
+
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="/app/NumberGuessingGame/js/app.js"></script>
+</body>
+
+</html>
