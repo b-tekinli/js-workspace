@@ -77,3 +77,11 @@ body {
     text-decoration: line-through;
     background-color: #e0e0e0;
 }
+
+.delete {
+    background-color: red;
+    color: white;
+    padding: 7px;
+    border-radius: 12px;
+    margin-left: 10px;
+}
