@@ -1,0 +1,61 @@
+body {
+    background-color: #BB9E98;
+    font-family: 'Lemon', serif;
+    font-family: 'Manrope', sans-serif;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-top: 30px;
+}
+
+header nav ul li {
+    border: 2px dashed #47565B;
+    border-radius: 12px;
+    padding: 3px 7px;
+    margin-left: 40px;
+}
+
+header nav ul li a {
+    color: #47565B;
+    text-decoration: none;
+    font-size: 32px;
+}
+
+header nav ul li a:hover {
+    color: #ffffff;
+}
+
+header nav ul li:hover {
+    background-color: #47565B;
+    transition: ease-in-out 0.4s;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    margin: 100px 15px;
+}
+
+.main-text {
+    font-size: 70px;
+    font-weight: 600;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px 50px;
+    text-align: center;
+}
+
+.first {
+    text-align: center;
+}
+
+.chef-hat {
+    max-width: 250px;
+}
+
+.main-img {
+    border-radius: 42px;
+}

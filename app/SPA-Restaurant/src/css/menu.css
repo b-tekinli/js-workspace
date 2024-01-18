@@ -1,0 +1,21 @@
+.container {
+    background-color: #9F6E78;
+    padding: 42px;
+    border-radius: 12px;
+    max-width: 500px;
+    margin: 100px auto;
+}
+
+.box {
+    margin-bottom: 80px;
+}
+
+img {
+    width: 300px;
+    margin: 0 100px;
+    border-radius: 12px;
+}
+
+p {
+    text-align: center;
+}
